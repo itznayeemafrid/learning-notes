@@ -9,7 +9,7 @@
 	- `git config --global user.name "My Name"`
 	- `git config --global user.email "whatever@mail.com"`
 - check configure --> `git config --list`
-- **(for linux)** create classic token instead of password
+- **(for Linux)** create classic token instead of password
 
 ## Push from Local repo
 1) Create a folder in local machine & put files inside
@@ -26,6 +26,8 @@
 12) Check status of local --> `git status`
 13) Commit initial files to repo --> `git commit -m "Initial commit"`
 14) Push files from local to repo --> `git push -u origin main`
+15) **(for Linux)** it may ask for username and password. Just give your github username and in the place of password, use classic token. check **Issues** page to generate token.
+16) If `main` is not available then check **Issues** page.
 
 ## Pull from Remote repo
 1) Create a folder in local machine
@@ -40,6 +42,7 @@
 10) Check status of local --> `git status`
 11) Commit initial files to repo --> `git commit -m "Initial commit"`
 12) Push files from local to repo --> `git push -u origin main`
+13) **(for Linux)** it may ask for username and password. Just give your github username and in the place of password, use classic token. check **Issues** page to generate token.
 
 ## Now open folder in Obsidian/VScode and push after use.
 
