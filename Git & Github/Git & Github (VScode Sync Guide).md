@@ -6,10 +6,10 @@
 	- select 'Override the default branch' while install
 - check git version --> `git --version`
 - configure git
-	- `git config --global username "My Name"`
+	- `git config --global user.name "My Name"`
 	- `git config --global user.email "whatever@mail.com"`
 - check configure --> `git config --list`
-- create classic token instead of password
+- **(for linux)** create classic token instead of password
 
 ## Push from Local repo
 1) Create a folder in local machine & put files inside
